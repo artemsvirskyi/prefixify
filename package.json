@@ -2,7 +2,7 @@
   "name": "prefixify",
   "version": "1.0.0",
   "description": "Add prefix to your browserify bundle",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "lodash": "^3.10.1",
     "moment": "^2.11.0",
