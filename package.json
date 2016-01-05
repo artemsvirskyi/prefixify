@@ -1,0 +1,38 @@
+{
+  "name": "prefixify",
+  "version": "1.0.0",
+  "description": "Add prefix to your browserify bundle",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "moment": "^2.11.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha test/index.js",
+    "watch": "mocha --watch test --growl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemsvirskyi/prefixify.git"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "prefix",
+    "prefixify"
+  ],
+  "author": "Artem Svirskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemsvirskyi/prefixify/issues"
+  },
+  "homepage": "https://github.com/artemsvirskyi/prefixify#readme"
+}
