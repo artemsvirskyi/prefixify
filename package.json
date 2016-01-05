@@ -1,6 +1,6 @@
 {
   "name": "prefixify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add prefix to your browserify bundle",
   "main": "lib/index.js",
   "dependencies": {
